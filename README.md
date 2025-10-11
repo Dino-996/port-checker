@@ -14,7 +14,7 @@ Salva lo script in un file (es. `check_port.sh`).
 
 ---
 
-### 💡 Logica Chiave
+### 💡 Logica
 - **Validazione Input:** Controlla se viene fornito un numero di porta (`$1`).
 - **Ricerca PID:** Utilizza `lsof` (liSt Open Files) con le opzioni:
   - `-t`: Restituisce solo il Process ID (PID).
