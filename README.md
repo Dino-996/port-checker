@@ -1,4 +1,4 @@
-# Script Bash: Controllo e Rilascio di una Porta 💻
+# Port Checker 💻
 
 ## Descrizione
 Questo script Bash permette di verificare se una porta TCP specifica è in uso su un sistema e, in caso affermativo, offre la possibilità di terminare il processo che la sta occupando.  
@@ -14,7 +14,7 @@ Salva lo script in un file (es. `check_port.sh`).
 
 ---
 
-### 💡 Logica
+### 💡 Utilizzo
 - **Validazione Input:** Controlla se viene fornito un numero di porta (`$1`).
 - **Ricerca PID:** Utilizza `lsof` (liSt Open Files) con le opzioni:
   - `-t`: Restituisce solo il Process ID (PID).
