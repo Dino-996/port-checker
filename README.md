@@ -1,4 +1,4 @@
-# Port Checker 💻
+# Port Checker 🚪
 
 ## Descrizione
 Questo script Bash permette di verificare se una porta TCP specifica è in uso su un sistema e, in caso affermativo, offre la possibilità di terminare il processo che la sta occupando.  
